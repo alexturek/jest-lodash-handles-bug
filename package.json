@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "startdb": "docker run -d --rm --name example-postgres -p 5432:5432 -e POSTGRES_USER=`whoami` postgres",
+    "createdb": "createdb handle_bug",
     "test": "node ./node_modules/.bin/jest --detectOpenHandles --config test/jest.json"
   },
   "repository": {
@@ -19,11 +21,14 @@
   "devDependencies": {
     "@types/jest": "^23.1.4",
     "@types/lodash": "^4.14.110",
+    "@types/pg": "^7.4.10",
     "jest": "^23.3.0",
     "lodash": "^4.17.10"
   },
   "dependencies": {
+    "pg": "^7.4.3",
     "tslib": "^1.9.3",
+    "typeorm": "^0.2.7",
     "typescript": "^2.9.2"
   }
 }
