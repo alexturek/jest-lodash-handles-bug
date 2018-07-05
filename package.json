@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/alexturek/jest-lodash-handles-bug/issues"
   },
-  "homepage": "https://github.com/alexturek/jest-lodash-handles-bug#readme"
+  "homepage": "https://github.com/alexturek/jest-lodash-handles-bug#readme",
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@types/lodash": "^4.14.110",
+    "jest": "^23.3.0",
+    "lodash": "^4.17.10"
+  }
 }
