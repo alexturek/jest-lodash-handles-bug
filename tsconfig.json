@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "charset": "utf-8",
+    "declaration": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "newLine": "LF",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "pretty": true,
+    "target": "es2016",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "sourceMap": true,
+    "inlineSources": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}

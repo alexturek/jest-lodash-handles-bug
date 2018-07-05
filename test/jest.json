@@ -1,0 +1,19 @@
+{
+  "automock": false,
+  "collectCoverageFrom": [
+    "<rootDir>/dist/src/**/*.js"
+  ],
+  "coverageReporters": [
+    "lcovonly",
+    "text"
+  ],
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/node_modules/",
+    "<rootDir>/test/"
+  ],
+  "rootDir": "..",
+  "testEnvironment": "node",
+  "testMatch": [
+    "<rootDir>/dist/test/**.js"
+  ]
+}
