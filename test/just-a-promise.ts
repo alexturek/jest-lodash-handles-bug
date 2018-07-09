@@ -1,6 +1,6 @@
-import 'lodash';
+Promise.resolve();
 
-describe(`lodash`, () => {
+describe(`Calling Promise.resolve()`, () => {
   it(`causes these tests to show open handles`, () => {
     expect(1).toEqual(1);
   });
