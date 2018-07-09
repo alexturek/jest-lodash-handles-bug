@@ -11,9 +11,10 @@
     "noImplicitAny": true,
     "outDir": "dist",
     "pretty": true,
-    "target": "es2017",
+    "target": "es2016",
     "lib": [
-      "es2017"
+      "es2016",
+      "dom"
     ],
     "sourceMap": true,
     "inlineSources": true,
